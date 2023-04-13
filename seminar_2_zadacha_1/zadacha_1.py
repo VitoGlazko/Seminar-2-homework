@@ -3,10 +3,7 @@ n = int(input("Введиет число: "))
 a = 1
 b = 1
 while a <= n :
-    print(b)
+    print(b, end = " ")
     b = b * (a+1)
     a = a+1
-
-
-
 
